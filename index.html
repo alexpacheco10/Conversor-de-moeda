@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1>Conversor de Moeda</h1>
+
+    <img class="gif" src="img/coin-flip-45-unscreen.gif">
+
+    <main>
+
+        <label>
+            Converter <b>de</b>
+            <select class="select-1">
+
+                 <option value="real"> R$ Real brasileiro </option> 
+
+                <option value="dolar"> US$ Dólar americano</option>
+
+                <option value="euro"> € Euro </option>
+
+                <option value="libra"> £ Libra </option>
+
+                <option value="bitcoin"> ₿  Bitcoin </option>
+
+            </select>
+        </label>
+
+
+        <label>
+            Converter <b>para</b>
+            <select class="select-2">
+
+                
+                <option value="dolar"> US$ Dólar amaricano </option>
+                
+                <option value="euro"> € Euro </option>
+
+                <option value="libra"> £ Libra </option>
+
+                <option value="bitcoin"> ₿  Bitcoin </option>
+
+                <option value="real"> R$ Real brasileiro </option>
+            
+            </select>
+        </label>
+
+        <label>
+            Valor
+            <input class="valorDoInput" placeholder="R$ 0,00">
+        </label>
+
+        <button class="botaoconverter">Converter </button>
+
+
+
+        <section>
+            <div class="caixa-1">
+                <img class="imgEsquerda" src="img/real-logo.png">
+                <p class="paragrafoEsquerda">Real</p>
+                <p class="paragrafoEsquerdaValor"> 0,00</p>
+
+            </div>
+
+            <img class="imgSeta" src="img/setas.png">
+
+
+            <div class="caixa-2">
+                <img class="imgDireita" src="img/dolar-logo.png">
+                <p class="paragrafoDireita">Dólar americano</p>
+                <p class="paragrafoDireitaValor"> 0,00</p>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+    
+
+
+
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
